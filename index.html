@@ -108,22 +108,30 @@
 </ul>
 </li>
 </ul>
-<h5 id="9-引用"><a href="#9-引用" class="headerlink" title="(9)引用"></a>(9)引用</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; 引用内容</span><br></pre></td></tr></table></figure>
+<h5 id="9-引用"><a href="#9-引用" class="headerlink" title="(9)引用"></a>(9)引用</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; 引用内容</span><br><span class="line">&gt;&gt; 引用内容2</span><br><span class="line">&gt;&gt;&gt; 引用内容3</span><br></pre></td></tr></table></figure>
+<p>内容</p>
 <blockquote>
 <p>引用内容</p>
+<blockquote>
+<p>引用内容2</p>
+<blockquote>
+<p>引用内容3</p>
+</blockquote>
+</blockquote>
 </blockquote>
 <h5 id="10-内嵌代码"><a href="#10-内嵌代码" class="headerlink" title="(10)内嵌代码"></a>(10)内嵌代码</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">`alert(&apos;Hello World&apos;);`</span><br></pre></td></tr></table></figure>
 <p><code>alert(&#39;Hello World&#39;);</code></p>
+<p>后面可以根据不同的语言配置不同的代码着色，比如： javascript<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">`alert('Hello World');`</span></span><br></pre></td></tr></table></figure></p>
 <h5 id="11-画水平线-HR"><a href="#11-画水平线-HR" class="headerlink" title="(11)画水平线 (HR)"></a>(11)画水平线 (HR)</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">--------</span><br></pre></td></tr></table></figure>
 <hr>
-<h4 id="3-图片"><a href="#3-图片" class="headerlink" title="3.图片"></a>3.图片</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">方法一：（hexo3以下版本）</span><br><span class="line">![]()</span><br><span class="line">方法二：（hexo3及以上版本）</span><br><span class="line">&#123;% asset_img 这是一个新的博客的图片.jpg 这是一个新的博客的图片的说明 %&#125;</span><br></pre></td></tr></table></figure>
-<p><img src="/timg.jpg" alt="image"></p>
+<h4 id="3-图片"><a href="#3-图片" class="headerlink" title="3.图片"></a>3.图片</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">方法一：</span><br><span class="line">![title](url)</span><br><span class="line">注：本地url可以放在themes/landscape/source/css/images下，引用的时候url直接写 /images/图片名.后缀 即可</span><br><span class="line">方法二：</span><br><span class="line">安装Markdown的image插件</span><br><span class="line">如：CodeFalling/hexo-asset-image</span><br></pre></td></tr></table></figure>
+<p><img src="/css/images/timg.jpg" alt="image"><br><!--  –&gt;</p>
 <h4 id="4-脚注"><a href="#4-脚注" class="headerlink" title="4.脚注"></a>4.脚注</h4><p>脚注不存在于标准Markdown中。使用脚注可能会产生A的Markdown在B的Markdown脚注展示不同的问题</p>
-
+--></p>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/02/26/Markdown语法简记/" data-id="cje3un0bb0001q9s6vr1dp1nl" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/02/26/Markdown语法简记/" data-id="cje4zglrx0000sbs617sv6jkq" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Markdown/">Markdown</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/前端/">前端</a></li></ul>
@@ -170,7 +178,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/02/24/hello-world/" data-id="cje3un0ar0000q9s6pyl7b9ek" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/02/24/hello-world/" data-id="cje4zgls30001sbs6myvkw6d8" class="article-share-link">Share</a>
       
       
     </footer>
